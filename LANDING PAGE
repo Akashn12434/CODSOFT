@@ -1,1 +1,470 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Complete Landing Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Akash Acadamy Landing Page</h1>
+        
+       
+    </header>
+    <nav class="navigator">
+            
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Services</a> |
+        <a href="#">Portfolio</a> |
+        <a href="#">Contact</a> |
+    
+</nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Start Learning now, Its free</h2>
+            <p>Join us on a journey to craft innovative solutions that inspire.</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <main>
+        <section class="about about-box">
+            <h2>About Us</h2>
+            <p>Welcome to Akash Academy, your online learning destination for quality education. Our platform offers a wide range of courses to help you acquire new skills and advance your career. With experienced instructors and engaging content, we are committed to your learning journey.</p>
+        </section>
+
+        <section class="mission mission-box">
+            <h2>Our Mission</h2>
+            <p>At Akash Academy, our mission is to provide accessible and high-quality education to learners around the world. We aim to empower individuals with knowledge and skills they need to succeed in today's rapidly evolving world.Join us as we strive to make learning ,interactive and impactful.</p>
+        </section>
+        <section class="feature">
+            <h2>Discover Our Awesome Features</h2>
+            <div class="column">
+                <div class="feature-box">
+                    <button>
+                    <h3>Feature 1</h3>
+                    <p>Engage with our interactive courses that cover a wide range of subjects.</p>
+                </button>
+                </div>
+            </div>
+            <div class="column">
+                <div class="feature-box">
+                    <button>
+                    <h3>Feature 2</h3>
+                    <p>Experience personalized learning with expert instructors and practical projects.</p>
+                </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="courses">
+            <h2>Explore Our Courses</h2>
+            <div class="course-slider">
+                <div class="course">
+                    <img src="images/python.jpg" alt="Course 1">
+                    <h3>Course 1</h3>
+                    <p>Learn the fundamentals of Python.</p>
+                    <a href="#" class="cta-button">Enroll Now</a>
+                </div>
+                <div class="course">
+                    <img src="images/java.jpg" alt="Course 2">
+                    <h3>Course 2</h3>
+                    <p>Dive into Java Programming Tutorial.</p>
+                    <a href="#" class="cta-button">Enroll Now</a>
+                </div>
+                <!-- Add more course divs as needed -->
+            </div>
+        </section>
+        <section class="coursess">
+            <h2>Explore Our Projects</h2>
+            <div class="courses-slider">
+                <div class="courses">
+                    <img src="images/python.jpg" alt="Course 1">
+                    <h3>Project 1</h3>
+                    <ul>
+                        <li>Build a simple calculator</li>
+                        <li>Create a To-Do list app</li>
+                        <li>Develop a basic web scraper</li>
+                    </ul>
+                    <a href="#" class="cta-button">Enroll Now</a>
+                </div>
+                <div class="courses">
+                    <img src="images/java.jpg" alt="Course 2">
+                    <h3>Project 2</h3>
+                    <ul>
+                        <li>Create a simple chat application</li>
+                        <li>Build a basic e-commerce system</li>
+                        <li>Develop a file management utility</li>
+                    </ul>
+                    <a href="#" class="cta-button">Enroll Now</a>
+                </div>
+                <!-- Add more course divs as needed -->
+            </div>
+        </section>  
+        <section class="instructors">
+            <h2>Our Instructors</h2>
+            <div class="instructor-list">
+                <div class="instructor">
+                    <img src="images/instructor1.jpg" alt="John Smith">
+                    <h3>AKASH N</h3>
+                </div>
+                <div class="instructor">
+                    <img src="images/instructor2.jpg" alt="Emily Johnson">
+                    <h3>BHOOMIKA P</h3>
+                </div>
+                <!-- Add more instructor divs as needed -->
+            </div>
+        </section>
+        
+     
+    </main>
+
+    <footer>
+        <p>&copy; 2023 AKASH N Complete Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+style.css
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.navigator {
+    background-color:yellow;
+     text-align: center;
+     color: red;
+     padding: 1rem 0;
+
+}
+
+.hero {
+    background-image: url('images/R.jpeg');
+    background-size: cover;
+    background-position: center;
+    color:yellow;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+/* Your existing CSS styles for other sections */
+
+/* About Section */
+.about {
+    padding: 3rem 0;
+    text-align: center;
+    background-color:pink;
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.about-box {
+    background-color:pink;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 2rem 0;
+    transition: transform 0.3s ease;
+}
+
+.about-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Mission Section */
+.mission {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.mission h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.mission p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.mission-box {
+    background-color:pink;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 2rem 0;
+    transition: transform 0.3s ease;
+}
+
+.mission-box:hover {
+    transform: translateY(-5px);
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e67e22;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.feature {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: orange;
+}
+
+.feature h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+button {
+    cursor: pointer;
+}
+.feature-box {
+    background-color: pink;
+    border-radius: 5px;
+    
+    padding: 2rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature-box p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.courses {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.courses h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.course-slider {
+    display: flex;
+    justify-content: space-around;
+}
+
+.course-slider .course {
+    flex: 0 0 calc(33.33% - 30px);
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-slider .course img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.course-slider .course h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.course-slider .course p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.course-slider .cta-button {
+    display: inline-block;
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* Your existing CSS styles for other sections */
+
+/* Projects Section */
+.coursess {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.coursess h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.courses-slider {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.coursess .courses {
+    flex: 0 0 calc(33.33% - 30px);
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 15px 30px;
+}
+
+.coursess .courses img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.coursess .courses h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.coursess .courses ul {
+    list-style: disc;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.coursess .courses ul li {
+    margin-bottom: 0.5rem;
+}
+
+.coursess .courses .cta-button {
+    display: inline-block;
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.coursess .courses .cta-button:hover {
+    background-color: #e67e22;
+}
+.instructors {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: pink;
+}
+
+.instructors h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.instructor-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.instructor {
+    flex: 0 0 calc(33.33% - 30px);
+    text-align: center;
+    padding: 2rem;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 15px 30px;
+}
+
+.instructor img {
+    max-width: 90px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+
 
